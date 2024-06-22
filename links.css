@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .volver1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+  }
+  .volver{
+    background-color: rgba(241, 44, 44, 0.6);
+    border: 2px solid rgba(0, 0, 0, 0.326);
+    border-radius: 20px;
+    display:inline-block;
+    min-width: 150px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  .volver1 a:hover{
+    background-color: rgb(73, 155, 98);
+  }
+
+  body{
+    min-width: 150px;
+    /* margin: auto; */
+    text-align: center;
+    background-color: rgb(255, 240, 254);
+  }
+  .form {
+    display: inline-block;
+    text-align: center;
+    width: 600px;
+    margin: 20px;
+    text-decoration: none;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 2px solid ;
+}
+
+.form_tittle {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input, a {
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  display: block;
+  margin: 10px;
+}
+
+.form [type="text"],
+[type="email"] {
+  text-align: center;
+}
+
+input:focus {
+  background-color: rgb(76, 94, 97);
+  text-align: center;
+}
+
+input::placeholder {
+  color: rgb(195, 172, 216);
+  text-align: center;
+}
+
+.form [type="checkbox"] {
+  color: rgb(0, 205, 41);
+}
+
+.tittle {
+  font-size: medium;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+.enlaces{
+  text-decoration: none;
+}
+
+  
+  .box{
+    margin: 10px 0px;
+    margin-left: 50px;
+    padding: 50px;
+    background: rgb(157, 117, 199);
+    line-height: 1.5px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+  }
+  
+  .contenedor {
+    margin-left: -60px;
+    padding: 10px;
+    border: 3px solid;
+  }
+
+  .disparar{
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    background: rgb(190, 110, 19);
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 50%;
+  }
+  
+  .disparar:active{
+    padding: 50px;
+  }

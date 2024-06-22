@@ -1,0 +1,105 @@
+.volver1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+.volver{
+  background-color: rgba(241, 44, 44, 0.6);
+  border: 2px solid rgba(0, 0, 0, 0.326);
+  border-radius: 20px;
+  display:inline-block;
+  min-width: 150px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+.volver1 a:hover{
+  background-color: rgb(73, 155, 98);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: salmon;
+}
+
+body{
+  background-color: rgb(254, 180, 172);
+}
+.card{
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: -10px -10px 0px 10px #d23535;
+  width: 400px;
+  background-color: rgb(255, 214, 214);
+}
+
+.card_titulo{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card_text::first-letter {
+  color: salmon;
+}
+
+.card_text {
+  text-transform: uppercase;
+  margin: 10px auto;
+  border-top: 1px;
+}
+
+.card_text::first-line {
+  color: rgb(67, 155, 155);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p{
+  padding: 10px;
+}
+
+ul {
+  margin-top: 20px;
+  padding: 0;
+  counter-reset: contador;
+  list-style: none;
+  text-decoration: none;
+}
+li {
+  padding: 0;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+/* .card_titulo::after,
+.card_titulo::before{
+  content: " ";
+  color: salmon;
+  display: block;
+  height: 6px ;
+  background-color: salmon;
+} */
+
+li::before {
+  content: counter(contador);
+  counter-increment: contador;
+  background-color: salmon;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.volver1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+.volver{
+  background-color: rgba(241, 44, 44, 0.6);
+  border: 2px solid rgba(0, 0, 0, 0.326);
+  border-radius: 20px;
+  display:inline-block;
+  min-width: 150px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+.volver1 a:hover{
+  background-color: rgb(73, 155, 98);
+}
+
+body {
+    margin: auto;
+    width: 955px;
+    padding: 0px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/020/904/001/original/nature-landscape-with-flying-star-balls-free-vector.jpg)
+    ;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+  }
+
+.cont {
+  display: block;
+    min-width: 955px;
+    padding: 20px;
+    margin: 20px;
+    align-self: center;
+    font-family: 'Georgia', serif;
+  }
+
+.img {
+    text-align: center;
+    margin: 8px;
+    display: inline-block;
+    vertical-align: top;
+    height: 430px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 40px;
+    border: 2px solid #2a3b2c;
+    box-shadow: 7px 8px 0px 0px #00000071;
+}
+
+img {
+    margin: 0px;
+    padding: 30px;
+    height: 250px;
+    filter: drop-shadow(0px 0px 20px rgb(255, 102, 1));
+}
+
+h1, p {
+  padding: 0px;
+  margin: 25px;
+  text-align: left;
+  font-size: 20px;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+body {
+    min-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(https://i.fbcd.co/products/resized/resized-1500-1000/mandelbrotplay-h20-small-10c9838a6c8d0b6ccb4676b508d4bd6cb4d5d1359d85f06943a340aa10b072bc.webp);
+    background-size: cover;
+    color: white;
+}
+
+h1,p{
+    padding: 20px 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.667);
+}
+.menu {
+    text-align: center;
+    min-width: 900px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+}
+
+
+.menu ul {
+    min-width: 800px;
+    margin: 10px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li {
+    margin: 20px;
+    text-align: center;
+}
+
+.menu a {
+    background-color: rgba(207, 75, 255, 0.356);
+    border: 3px solid white;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #5f0092;
+}
+
+
+/* @media (max-width: 600px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+} */

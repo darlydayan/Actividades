@@ -1,0 +1,85 @@
+.volver1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+.volver{
+  background-color: rgba(241, 44, 44, 0.6);
+  border: 2px solid rgba(0, 0, 0, 0.326);
+  border-radius: 20px;
+  display:inline-block;
+  min-width: 150px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+.volver1 a:hover{
+  background-color: rgb(73, 155, 98);
+}
+body{
+  background-color: antiquewhite;
+}
+.spidy {
+  width: 390px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 30px 30px 0px 0px;
+
+}
+
+.spider {
+  background-color: rgb(253, 225, 225);
+  width: 390px;
+  height: 500px; 
+  margin: auto;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  box-shadow: 10px 7px 20px black;
+}
+
+h1 {
+  font-family:Impact, sans-serif;
+  text-align: center;
+  color: red;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  background-color: red;
+  align-items: center;
+  color: white;
+  position: relative;
+  left: 120px;
+  border-radius: 7px;
+  border-color: rgb(27, 34, 88);
+}
+
+.goku {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.imggo {
+  filter: drop-shadow(-10px 10px 30px yellow);
+  width: 400px;
+  left: 300px;
+}
+
+.spid2 {
+  text-align: center;
+}
+.spid {
+  filter: drop-shadow(-10px 10px 30px red);
+  width: 600px;
+  text-align: center;
+}
